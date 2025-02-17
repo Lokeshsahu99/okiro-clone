@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don’t be afraid</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-white shadow-md p-4 md:p-6 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <h1 class="text-3xl font-bold font-cursive  items-center">okiro</h1>
+
+            <!-- Navigation Menu (Hidden on Mobile) -->
+            <nav class="hidden md:flex space-x-6">
+                <a href="/dist/index.html" class="font-semibold hover:text-blue-500 relative">Home
+                    <span class="absolute top-0 right-0 w-2 h-2 bg-blue-500 rounded-full"></span>
+                </a>
+                <a href="#" class="font-semibold hover:text-blue-500">Membership</a>
+                <a href="#" class="font-semibold hover:text-blue-500">Style Guide</a>
+                <span class="text-xl">...</span>
+            </nav>
+
+            <!-- Right Buttons -->
+            <div class="hidden md:flex items-center space-x-4">
+                <button class="text-xl"><span class="icon-search">🔍</span></button>
+                <a href="#" class="font-semibold hover:text-blue-500">Sign in</a>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-full">Sign up</button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-toggle" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Initially Hidden) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white p-4 space-y-2">
+            <a href="#" class="block font-semibold hover:text-blue-500">Home</a>
+            <a href="#" class="block font-semibold hover:text-blue-500">Membership</a>
+            <a href="#" class="block font-semibold hover:text-blue-500">Style Guide</a>
+            <a href="#" class="block font-semibold hover:text-blue-500">Sign in</a>
+            <button class="w-full bg-blue-600 text-white px-4 py-2 rounded-full">Sign up</button>
+        </div>
+    </header>
+
+
+
+    <div class="flex items-center justify-center w-full py-8 px-4">
+        <div class="max-w-5xl w-full bg-white overflow-hidden rounded-3xl shadow-lg md:flex">
+            <!-- Image Section -->
+            <div class="md:w-1/2 w-full">
+                <img src="../images/photo-1557800636-894a64c1696f.webp" alt="Orange on blue background"
+                    class="w-full h-64 md:h-full object-cover rounded-t-3xl md:rounded-l-3xl md:rounded-tr-none">
+            </div>
+
+            <!-- Content Section -->
+            <div class="md:w-1/2 p-6 md:p-8 flex flex-col justify-center">
+                <div class="mb-4 flex gap-2">
+                    <span class="bg-gray-200 text-gray-600 text-xs px-3 py-1 rounded-full">STORY</span>
+                    <span class="bg-gray-200 text-gray-600 text-xs px-3 py-1 rounded-full">CREATIVE</span>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Don’t be afraid</h2>
+                <p class="text-gray-600 text-sm mb-6">
+                    Quae quo sunt excelsiores, eo dant clariora indicia naturae. Sed haec quidem liberius ab eo dicuntur
+                    et saepius.
+                    Et ille ridens video, inquit, quid agas tum ille timide vel potius verecunde.
+                </p>
+
+                <!-- Author Details -->
+                <div class="flex items-center">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Author"
+                        class="w-10 h-10 rounded-full mr-3">
+                    <div>
+                        <p class="text-sm font-semibold text-gray-800">Megan Anderson, Lauren Langford</p>
+                        <p class="text-xs text-gray-500">August 12, 2020 · 3 minutes read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="flex items-center justify-center w-full max-w-4xl mx-auto">
+        <p class="text-center">
+            Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Athoc in eo M. Quid de
+            Platone aut de Democrito loquar. Quae in controversiam veniunt, de iis, si placet, disseramus. Iam quae
+            corporis sunt, ea nec auctoritatem cum animi partibus, comparandam et cognitionem habent faciliorem. Quam ob
+            rem tandem, inquit, non satisfacit. Isto modo ne improbos quidem, si essent boni viri. Qui autem esse
+            poteris, nisi te amor ipse ceperit. Utilitatis causa amicitia est quaesita.
+        </p>
+
+
+    </div>
+
+    <div class="flex items-center justify-center w-full max-w-4xl mx-auto p-10">
+        <p class="text-center">
+            Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Athoc in eo M. Quid de
+            Platone aut de Democrito loquar. Quae in controversiam veniunt, de iis, si placet, disseramus. Iam quae
+            corporis sunt, ea nec auctoritatem cum animi partibus, comparandam et cognitionem habent faciliorem. Quam ob
+            rem tandem, inquit, non satisfacit. Isto modo ne improbos quidem, si essent boni viri. Qui autem esse
+            poteris, nisi te amor ipse ceperit. Utilitatis causa amicitia est quaesita.
+        </p>
+
+
+    </div>
+
+
+    <div class="flex items-center justify-center w-full py-8">
+        <div class="  flex max-w-6xl overflow-hidden">
+
+            <div class="w-3/10">
+                <img src="../images/mae-mu-Rz5o0osnN6Q-unsplash.jpg" alt=""
+                    class="w-full h-full object-cover rounded-4xl">
+            </div>
+            <div class="w-7/10 pl-8 flex flex-col justify-center">
+
+                <img src="../images/gabrielle-henderson-djY0xDWCEUM-unsplash.jpg" alt=""
+                    class="w-full h-full  object-cover rounded-4xl">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="flex items-center justify-center w-full max-w-4xl mx-auto p-10">
+        <p class="text-center font-bold text-2xl">
+            Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Athoc in eo M. Quid de
+            Platone aut de Democrito loquar. Quae in controversiam veniunt, de iis, si placet, disseramus. Iam quae
+            corporis sunt, ea nec auctoritatem cum animi partibus, comparandam et cognitionem habent faciliorem. Quam ob
+            rem tandem, inquit, non satisfacit. Isto modo ne improbos quidem, si essent boni viri. Qui autem esse
+            poteris, nisi te amor ipse ceperit. Utilitatis causa amicitia est quaesita.
+        </p>
+
+
+    </div>
+
+    <div class="justify-center w-full max-w-4xl mx-auto p-10">
+        <p class="text-center  ">
+            Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Athoc in eo M. Quid de
+            Platone aut de Democrito loquar. Quae in controversiam veniunt, de iis, si placet, disseramus. Iam quae
+            corporis sunt, ea nec auctoritatem cum animi partibus, comparandam et cognitionem habent faciliorem. Quam ob
+            rem tandem, inquit, non satisfacit. Isto modo ne improbos quidem, si essent boni viri. Qui autem esse
+            poteris, nisi te amor ipse ceperit. Utilitatis causa amicitia est quaesita.
+
+
+        </p>
+        <p class="text-center p-5">
+            Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur. Athoc in eo M. Quid de
+            Platone aut de Democrito loquar. Quae in controversiam veniunt, de iis, si placet, disseramus. Iam quae
+            corporis sunt, ea nec auctoritatem cum animi partibus, comparandam et cognitionem habent faciliorem. Quam ob
+            rem tandem, inquit, non satisfacit. Isto modo ne improbos quidem, si essent boni viri. Qui autem esse
+            poteris, nisi te amor ipse ceperit. Utilitatis causa amicitia est quaesita.
+        </p>
+    </div>
+
+
+
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="md:flex">
+            <!-- Text Section -->
+            <div class="p-4 md:w-2/3">
+                <h3 class="text-lg font-semibold text-gray-900">
+                    Photo by Gabrielle Henderson on Unsplash
+                </h3>
+                <p class="text-gray-600 mt-1">pink and blue icing coated doughnut</p>
+                
+                <!-- Source Info -->
+                <div class="flex items-center mt-4 space-x-2 text-sm text-gray-700">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/unsplash.png" alt="Unsplash Icon" class="w-5 h-5">
+                    <span>Unsplash</span> 
+                    <span class="mx-1">•</span> 
+                    <span class="font-semibold">Gabrielle Henderson</span>
+                </div>
+            </div>
+    
+            <!-- Image Section -->
+            <div class="md:w-1/3 ">
+                <img class="h-40 float-right w-50 object-cover rounded-r-xl " 
+                    src="../images/photo-1551844547-043f512dc4d9..avif" 
+                    alt="Pink and Blue Icing Coated Doughnut">
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+
+</html>
